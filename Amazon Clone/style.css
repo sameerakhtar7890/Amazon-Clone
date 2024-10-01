@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("images.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid black;
+}
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+.add-sec {
+    color: white;
+    font-size: 1rem;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(200, 142, 42, 0.979);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+span {
+    font-size: 0.7rem;
+}
+.nav-sec {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-ret {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+.panel-ops p {
+    display: inline;
+    color: white;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+    margin: 15px;
+}
+.panel-deals {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+/* hero */
+.hero-section {
+    height: 400px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: lightblue;
+}
+/* shop sec */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(176, 194, 200);
+    
+}
+.box {
+    border: 2px solid black;
+    height: 350px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 5px;
+    
+}
+.box-image {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content p {
+    color: lightblue;
+}
+/* footer */
+footer {
+    margin-top: 50px;
+}
+.foot-panel1 {
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+} 
+.foot-panel3 {
+    background-color: #222f3D;
+    color: white;
+    border: 0.5px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url("images.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.pages {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyrights {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 5px;
+
+}
